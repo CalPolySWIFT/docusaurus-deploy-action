@@ -5,9 +5,9 @@ set -e
 GIT_PASSWORD=${GIT_PASSWORD:-$GITHUB_TOKEN}
 DEPLOYMENT_BRANCH=${DEPLOYMENT_BRANCH:-gh-pages}
 
-echo "Skipping the cd command..."
-# echo "Source folder: $SOURCE_FOLDER"
-# cd $SOURCE_FOLDER
+# echo "Skipping the cd command..."
+echo "Source folder: $SOURCE_FOLDER"
+cd $SOURCE_FOLDER
 
 echo "Running deploy"
 
