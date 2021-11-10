@@ -17,4 +17,4 @@ echo "machine github.com login $GIT_USER password $GIT_PASSWORD" > ~/.netrc
 
 # export NODE_PATH=`npm root -g`
 # docusaurus deploy
-npm install && npm run deploy
+yarn install && yarn deploy
